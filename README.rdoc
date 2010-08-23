@@ -12,8 +12,8 @@ The script has been tested with Serpent 1.1.12 and Ruby 1.9.1 on OS X 10.6. By d
 
 * http://montecarlo.vtt.fi
 * http://ttuki.vtt.fi/serpent/
-* http://www.nea.fr/tools/abstract/detail/nea-1840
-* http://www.nea.fr/tools/abstract/detail/nea-1854
+* http://nea.fr/tools/abstract/detail/nea-1840
+* http://nea.fr/tools/abstract/detail/nea-1854
 
 === Copyright and License
 
