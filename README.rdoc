@@ -8,12 +8,12 @@ The script has been tested with Serpent 1.1.12 and Ruby 1.9.1 on OS X 10.6. By d
 
 == Links
 
- * http://montecarlo.vtt.fi
- * http://ttuki.vtt.fi/serpent/
- * http://www.nea.fr/tools/abstract/detail/nea-1840
- * http://www.nea.fr/tools/abstract/detail/nea-1854
+* http://montecarlo.vtt.fi
+* http://ttuki.vtt.fi/serpent/
+* http://www.nea.fr/tools/abstract/detail/nea-1840
+* http://www.nea.fr/tools/abstract/detail/nea-1854
 
-== COPYRIGHT AND LICENSE
+== Copyright and License
 
 Copyright (c) 2010, Andrei Fokau <andrei.fokau@neutron.kth.se>
 
