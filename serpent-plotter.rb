@@ -123,8 +123,8 @@ class SerpentPlotter
       when :ex,:extent then @extent = self.set_defaults( self.numeric(values), 6 )
       when :res    then @resolution = self.set_defaults( self.numeric(values), 6, 0.5 ).collect{|f|f.to_i}
       when :one,:three then @three = keyword == :three
-      when *@keywords[:moveup]    then @origin[ self.xyz(self.axis(1,2)) ] -= (values.first || @extent[1]/1.0).to_f
-      when *@keywords[:movedown]  then @origin[ self.xyz(self.axis(1,2)) ] += (values.first || @extent[1]/1.0).to_f
+      when *@keywords[:moveup]    then @origin[ self.xyz(self.axis(1,2)) ] += (values.first || @extent[1]/1.0).to_f
+      when *@keywords[:movedown]  then @origin[ self.xyz(self.axis(1,2)) ] -= (values.first || @extent[1]/1.0).to_f
       when *@keywords[:moveright] then @origin[ self.xyz(self.axis(1,1)) ] += (values.first || @extent[0]/1.0).to_f
       when *@keywords[:moveleft]  then @origin[ self.xyz(self.axis(1,1)) ] -= (values.first || @extent[0]/1.0).to_f
       when *@keywords[:movein]    then @origin[ self.xyz(@axis) ] -= values.first.to_f

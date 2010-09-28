@@ -11,7 +11,7 @@ The script has been tested with Serpent 1.1.12 and Ruby 1.9.1 on OS X 10.6. By d
 === Links
 
 * http://montecarlo.vtt.fi
-* http://ttuki.vtt.fi/serpent/
+* http://ttuki.vtt.fi/serpent
 * http://nea.fr/tools/abstract/detail/nea-1840
 * http://nea.fr/tools/abstract/detail/nea-1854
 
