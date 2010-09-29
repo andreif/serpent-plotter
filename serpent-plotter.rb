@@ -5,8 +5,6 @@
 2. defaults in serpent-plotter.yaml
 =end
 
-raise "Plotter requires Ruby 1.9.x! See rvm.beginrescueend.com" unless RUBY_VERSION =~ /^1\.9/
-
 class SerpentPlotter
   
   FILE_DEFAULTS = 'serpent-plotter.yaml'
